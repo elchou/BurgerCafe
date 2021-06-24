@@ -12,7 +12,7 @@ menuBtn.addEventListener('click', ()=> {
         menuBtn.classList.remove('open');
         navigation.classList.remove('show');
 
-            alert("ss")
+      
         menuOpen=false;
     }
 })
