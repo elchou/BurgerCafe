@@ -46,8 +46,13 @@
 }
 #submenu li:hover{
     background-color: rgba(0, 0, 0, 0.479);
-    color: white!important;
 }
+
+#submenu li:hover a{
+    color: white ;
+}
+
+
 /* .menu-btn {
     display: block;
     left: 50%;
