@@ -66,5 +66,5 @@ function validDateFormat(input) {
 }
 
     function loadInputText() {
-    document.getElementById("geburtsdatum").value = "TT.MM.JJJJ";
+    document.getElementById("geburtsdatum").value = "date picker";
 }
