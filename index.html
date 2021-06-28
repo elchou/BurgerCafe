@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
@@ -77,7 +78,6 @@
         <h4>Blueberry Pancakes</h4>
         <p>With syrup, butter and lots of berries 8.50</p>
         <br>
-        
     </div>
     <div id="section3Img"></div>
 </div>
@@ -100,16 +100,19 @@
         <div id="info">
             <input class="fname" type="text" name="name" placeholder="Full name">
             <input type="number" name="num" placeholder="How many people">
-            <input type="datetime-local" name="date" placeholder="Enter date">
+            <!-- <input type="datetime-local" name="date" placeholder="Enter date"> -->
+            <input type="text" id="geburtsdatum" name="geburtsdatum" placeholder="TT.MM.JJJJ" maxlength="10" onfocus="loadInputText()" onClick="this.select(); " >
             <input class="fname" type="text" name="message" placeholder="Message">
           </div>
+          <button type="submit" id="button1" formaction="">SEND MESSAGE</button>
     </form>
-    <button type="submit" id="button1" formaction="">SEND MESSAGE</button>
 </div>
 
 <footer>copyright</footer>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js?fbclid=IwAR2Y5iiwTwyPzBFodANcTdK2n1NuvfZZl8ysNjaXYE5XQYtwyaXEk8hVSkA"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js?fbclid=IwAR1Fh23PrEjrTugbunqUbZqek3MC0UuG2WY5kpZ8q4rLxsfo74JJxw1Ei_0"></script>
 <script src="main.js"></script>
 </body>
 </html>
